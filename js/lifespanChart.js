@@ -47,24 +47,24 @@ async function createChart() {
                     label: 'The Number of Caterpillars/Butteryflies under the warm temp. light alive',
                     data: data.yWTLSpan, 
                     fill: false,
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(252, 128, 3, 0.2)',
+                    borderColor: 'rgba(252, 128, 3, 1)',
                     borderWidth: 1
                 },
                 {
                     label: 'The Number of Caterpillars/Butteryflies under the daylight temp. LED alive',
                     data: data.yDLSpan, 
                     fill: false,
-                    backgroundColor: 'rgba(0, 102, 255, 0.2)',
-                    borderColor: 'rgba(0, 102, 255, 1)',
+                    backgroundColor: 'rgba(0, 144, 0, 0.2)',
+                    borderColor: 'rgba(0, 144, 0, 1)',
                     borderWidth: 1
                 },
                 {
                     label: 'The Number of Caterpillars/Butteryflies under the cool temp. light alive',
                     data: data.yCTLSpan, 
                     fill: false,
-                    backgroundColor: 'rgba(0, 153, 51, 0.2)',
-                    borderColor: 'rgba(0, 153, 51, 1)',
+                    backgroundColor: 'rgba(0, 102, 255, 0.2)',
+                    borderColor: 'rgba(0, 102, 255, 1)',
                     borderWidth: 1
                 }
             ]

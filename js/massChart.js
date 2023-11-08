@@ -47,24 +47,24 @@ async function createChart() {
                     label: 'Average Mass of One Caterpillar/Butteryfly under the warm temp. light in grams',
                     data: data.yWTLMass, 
                     fill: false,
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(252, 128, 3, 0.2)',
+                    borderColor: 'rgba(252, 128, 3, 1)',
                     borderWidth: 1
                 },
                 {
                     label: 'Average Mass of One Caterpillar/Butteryfly under the daylight temp. LED in grams',
                     data: data.yDLMass, 
                     fill: false,
-                    backgroundColor: 'rgba(0, 102, 255, 0.2)',
-                    borderColor: 'rgba(0, 102, 255, 1)',
+                    backgroundColor: 'rgba(0, 144, 0, 0.2)',
+                    borderColor: 'rgba(10, 144, 0, 1)',
                     borderWidth: 1
                 },
                 {
                     label: 'Average Mass of One Caterpillar/Butteryfly under the cool temp. light in grams',
                     data: data.yCTLMass, 
                     fill: false,
-                    backgroundColor: 'rgba(0, 153, 51, 0.2)',
-                    borderColor: 'rgba(0, 153, 51, 1)',
+                    backgroundColor: 'rgba(0, 102, 255, 0.2)',
+                    borderColor: 'rgba(0, 102, 255, 1)',
                     borderWidth: 1
                 }
             ]
