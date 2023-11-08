@@ -1,6 +1,6 @@
 
 async function getData() {
-    const response = await fetch('../data/caterpillar-mean-mass.csv'); // .. moves up 1 folder
+    const response = await fetch('/../data/caterpillar-mean-mass.csv'); // .. moves up 1 folder
     const data = await response.text();    // CSV is in TEXT format
     //console.log(data);
 
