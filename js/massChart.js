@@ -44,7 +44,7 @@ async function createChart() {
             labels: data.xDate,
             datasets: [
                 {
-                    label: 'Average Mass of One Caterpillar/Butteryfly under the warm temp. light in grams',
+                    label: 'Average Mass of One Caterpillar/Butterfly under the warm temp. light in grams',
                     data: data.yWTLMass, 
                     fill: false,
                     backgroundColor: 'rgba(252, 128, 3, 0.2)',
@@ -52,7 +52,7 @@ async function createChart() {
                     borderWidth: 1
                 },
                 {
-                    label: 'Average Mass of One Caterpillar/Butteryfly under the daylight temp. LED in grams',
+                    label: 'Average Mass of One Caterpillar/Butterfly under the daylight temp. LED in grams',
                     data: data.yDLMass, 
                     fill: false,
                     backgroundColor: 'rgba(0, 144, 0, 0.2)',
@@ -60,7 +60,7 @@ async function createChart() {
                     borderWidth: 1
                 },
                 {
-                    label: 'Average Mass of One Caterpillar/Butteryfly under the cool temp. light in grams',
+                    label: 'Average Mass of One Caterpillar/Butterfly under the cool temp. light in grams',
                     data: data.yCTLMass, 
                     fill: false,
                     backgroundColor: 'rgba(0, 102, 255, 0.2)',

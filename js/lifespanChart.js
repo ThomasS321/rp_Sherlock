@@ -44,7 +44,7 @@ async function createChart() {
             labels: data.xDate,
             datasets: [
                 {
-                    label: 'The Number of Caterpillars/Butteryflies under the warm temp. light alive',
+                    label: 'The Number of Caterpillars/Butterflies under the warm temp. light alive',
                     data: data.yWTLSpan, 
                     fill: false,
                     backgroundColor: 'rgba(252, 128, 3, 0.2)',
@@ -52,7 +52,7 @@ async function createChart() {
                     borderWidth: 1
                 },
                 {
-                    label: 'The Number of Caterpillars/Butteryflies under the daylight temp. LED alive',
+                    label: 'The Number of Caterpillars/Butterflies under the daylight temp. LED alive',
                     data: data.yDLSpan, 
                     fill: false,
                     backgroundColor: 'rgba(0, 144, 0, 0.2)',
@@ -60,7 +60,7 @@ async function createChart() {
                     borderWidth: 1
                 },
                 {
-                    label: 'The Number of Caterpillars/Butteryflies under the cool temp. light alive',
+                    label: 'The Number of Caterpillars/Butterflies under the cool temp. light alive',
                     data: data.yCTLSpan, 
                     fill: false,
                     backgroundColor: 'rgba(0, 102, 255, 0.2)',
@@ -109,7 +109,7 @@ async function createChart() {
             plugins: {      //Display options
                 title: {
                     display: true,
-                    text: 'The Number of Caterpillars Alive Over Time (11/7/22 - 12/25/22)',
+                    text: 'The Number of Caterpillars/Butterflies Alive Over Time (11/7/22 - 12/25/22)',
                     font: {
                         size: 24
                     },
