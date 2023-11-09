@@ -1,6 +1,7 @@
 
 async function getData() {
-    const response = await fetch('/../data/caterpillar-lifespan.csv'); // .. moves up 1 folder
+    const response = await fetch('/rp_Sherlock/data/caterpillar-lifespan.csv'); // Data directory for GitHub pages
+    // const response = await fetch('../data/caterpillar-lifespan.csv'); // .. moves up 1 folder. Data directory for local dev (LiveServer)
     const data = await response.text();    // CSV is in TEXT format
     //console.log(data);
 
