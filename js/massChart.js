@@ -1,7 +1,7 @@
 
 async function getData() {
-    const response = await fetch('/rp_Sherlock/data/caterpillar-mean-mass.csv'); // Data directory for GitHub pages
-    //const response = await fetch('../data/caterpillar-mean-mass.csv'); // .. moves up 1 folder. Data directory for local dev (LiveServer)
+    //const response = await fetch('/rp_Sherlock/data/caterpillar-mean-mass.csv'); // Data directory for GitHub pages
+    const response = await fetch('../data/caterpillar-mean-mass.csv'); // .. moves up 1 folder. Data directory for local dev (LiveServer)
     const data = await response.text();    // CSV is in TEXT format
     //console.log(data);
 
@@ -72,6 +72,7 @@ async function createChart() {
         },
         options: {
             responsive: true,   // Re-size based on screen size
+            maintainAspectRatio: false, // For responsive charts (keeps original width/height aspect ratio)
             scales: {           // Display options for x & y axes
                 x: {
                     title: {
