@@ -60,6 +60,21 @@
     background-color: #2D6A4F;
 }
 
+.results {
+    background-color: #EFFAF2;
+}
+
+.chart-wrapper{
+    margin: auto;
+    padding: 10px; 
+    height: 40vh;
+    width:  80vw;
+    min-height: 400px;
+    background-color: whitesmoke !important;
+    justify-content: center;
+    align-items: center;  
+}
+
 /* --------------------- ID ------------------------ */
 
 /* -----------------Underline Animation CSS -----------------*/
